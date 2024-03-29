@@ -53,11 +53,9 @@
   gap: 32px;
 }
 
-.filter__label {}
-
-.checkbox {}
-
-.checkbox__input {}
+.filter__label:not(:last-child) {
+  margin-bottom: 8px;
+}
 
 .filter__buttons {}
 

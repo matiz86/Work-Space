@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+  <script src="js/choices.min.js" defer></script>
+  <script src="js/script.js" defer></script>
   <title>Workspace</title>
 </head>
 
@@ -56,7 +58,7 @@
             </fieldset>
             <div class="filter__checkboxes">
               <fieldset class="filter__fieldset">
-                <legend>Формат</legend>
+                <legend class="filter__legend">Формат</legend>
                 <label class="filter__label checkbox">
                   <input class="checkbox__input" type="checkbox" name="format" value="Офис">Офис
                 </label>
@@ -68,7 +70,7 @@
                 </label>
               </fieldset>
               <fieldset class="filter__fieldset">
-                <legend>Опыт работы</legend>
+                <legend class="filter__legend">Опыт работы</legend>
                 <label class="filter__label checkbox">
                   <input class="checkbox__input" type="checkbox" name="experience" value="Опыт не важен">Опыт не важен
                 </label>
@@ -85,12 +87,13 @@
                 </label>
               </fieldset>
               <fieldset class="filter__fieldset">
-                <legend>Занятость</legend>
+                <legend class="filter__legend">Занятость</legend>
                 <label class="filter__label checkbox">
                   <input class="checkbox__input" type="checkbox" name="type" value="Полная занятость">Полная занятость
                 </label>
                 <label class="filter__label checkbox">
-                  <input class="checkbox__input" type="checkbox" name="type" value="Частичная занятость">Частичная занятость
+                  <input class="checkbox__input" type="checkbox" name="type" value="Частичная занятость">Частичная
+                  занятость
                 </label>
                 <label class="filter__label checkbox">
                   <input class="checkbox__input" type="checkbox" name="type" value="Стажировка">Стажировка

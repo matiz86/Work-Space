@@ -2,12 +2,13 @@
   background: #fff;
   border-radius: 16px;
   padding: 16px;
+  height: 100%;
+  cursor: pointer;
 }
 
 .vacansy__img {
-  width: 44px;
-  height: 44px;
-  object-fit: cover;
+  max-height: 44px;
+  display: block;
   margin-bottom: 12px;
 }
 
@@ -18,14 +19,13 @@
 
 .vacancy__title {
   display: inline-block;
-  margin-bottom: 11px;
-  background: #eaecff;
+  font-weight: 400;
+  margin-bottom: 8px;
+  background-color: #eaecff;
   border-radius: 4px;
   padding: 3px 5px;
 
 }
-
-.vacancy__fields {}
 
 .vacancy__field {
   color: #ccc;
