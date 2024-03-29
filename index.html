@@ -30,7 +30,9 @@
     </section>
 
     <div class="vacansies" id="vacansies">
+
       <div class="container vacansies__container">
+        <button class="vacansies__filter-btn">Фильтр</button>
         <section class="vacansies__filter filter">
           <h2 class="filter__title">Фильтр</h2>
           <form class="filter__form">
@@ -68,7 +70,7 @@
               <fieldset class="filter__fieldset">
                 <legend>Опыт работы</legend>
                 <label class="filter__label checkbox">
-                  <input class="checkbox__input" type="checkbox" name="experience" value="Не важно">Не важно
+                  <input class="checkbox__input" type="checkbox" name="experience" value="Опыт не важен">Опыт не важен
                 </label>
                 <label class="filter__label checkbox">
                   <input class="checkbox__input" type="checkbox" name="experience" value="Без опыта">Без опыта
@@ -85,10 +87,10 @@
               <fieldset class="filter__fieldset">
                 <legend>Занятость</legend>
                 <label class="filter__label checkbox">
-                  <input class="checkbox__input" type="checkbox" name="type" value="Полная">Полная
+                  <input class="checkbox__input" type="checkbox" name="type" value="Полная занятость">Полная занятость
                 </label>
                 <label class="filter__label checkbox">
-                  <input class="checkbox__input" type="checkbox" name="type" value="Частичная">Частичная
+                  <input class="checkbox__input" type="checkbox" name="type" value="Частичная занятость">Частичная занятость
                 </label>
                 <label class="filter__label checkbox">
                   <input class="checkbox__input" type="checkbox" name="type" value="Стажировка">Стажировка
@@ -105,6 +107,7 @@
 
           </form>
         </section>
+
         <section class="vacansies__cards cards">
           <h2 class="cards__title visually-hidden">Список вакансий</h2>
           <ul class="cards__list">

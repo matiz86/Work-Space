@@ -1,0 +1,32 @@
+.vacansy {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.vacansy__img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.vacancy__company {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.vacancy__title {
+  display: inline-block;
+  margin-bottom: 11px;
+  background: #eaecff;
+  border-radius: 4px;
+  padding: 3px 5px;
+
+}
+
+.vacancy__fields {}
+
+.vacancy__field {
+  color: #ccc;
+}
