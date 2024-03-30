@@ -1,21 +1,21 @@
-.vacansies {
+.vacancies {
   padding: 50px 0;
 }
 
-.vacansies__container {
+.vacancies__container {
   display: flex;
   align-items: start;
   gap: 24px 20px;
 }
 
-.vacansies__filter-btn {
+.vacancies__filter-btn {
   display: none;
 }
 
-.vacansies__filter {
+.vacancies__filter {
   flex: 0 0 280px;
 }
 
-.vacansies__cards {
+.vacancies__cards {
   flex-basis: 100%;
 }
