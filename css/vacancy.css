@@ -1,4 +1,4 @@
-.vacansy {
+.vacancy {
   background: #fff;
   border-radius: 16px;
   padding: 16px;
@@ -6,7 +6,7 @@
   cursor: pointer;
 }
 
-.vacansy__img {
+.vacancy__img {
   max-height: 44px;
   display: block;
   margin-bottom: 12px;
